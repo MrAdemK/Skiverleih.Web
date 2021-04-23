@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skiverleih.Web", "Skiverleih.Web\Skiverleih.Web.csproj", "{DEAB564D-37B9-4A21-A98F-C60D3928BD0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skiverleih.Model", "Skiverleih.Model\Skiverleih.Model.csproj", "{26562E33-4685-40D5-8F30-5C9063123275}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DEAB564D-37B9-4A21-A98F-C60D3928BD0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DEAB564D-37B9-4A21-A98F-C60D3928BD0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DEAB564D-37B9-4A21-A98F-C60D3928BD0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DEAB564D-37B9-4A21-A98F-C60D3928BD0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26562E33-4685-40D5-8F30-5C9063123275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26562E33-4685-40D5-8F30-5C9063123275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26562E33-4685-40D5-8F30-5C9063123275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26562E33-4685-40D5-8F30-5C9063123275}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {68D10637-B5BC-4DD4-A303-576872550DD8}
+	EndGlobalSection
+EndGlobal

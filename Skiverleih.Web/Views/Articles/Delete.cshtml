@@ -1,0 +1,65 @@
+﻿@model Skiverleih.Model.DatabaseModels.Article
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>Article</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Categorie.CategoryName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Categorie.CategoryName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Status.StatusId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Status.StatusId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ArticleName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ArticleName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RentPriceADay)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RentPriceADay)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RentCount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RentCount)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

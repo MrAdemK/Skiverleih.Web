@@ -1,0 +1,6 @@
+C:\Users\akars\OneDrive\Desktop\LAP_Übungen\Skiverleih.Web\Skiverleih.Model\bin\Debug\Skiverleih.Model.dll
+C:\Users\akars\OneDrive\Desktop\LAP_Übungen\Skiverleih.Web\Skiverleih.Model\bin\Debug\Skiverleih.Model.pdb
+C:\Users\akars\OneDrive\Desktop\LAP_Übungen\Skiverleih.Web\Skiverleih.Model\obj\Debug\Skiverleih.Model.csproj.CoreCompileInputs.cache
+C:\Users\akars\OneDrive\Desktop\LAP_Übungen\Skiverleih.Web\Skiverleih.Model\obj\Debug\Skiverleih.Model.dll
+C:\Users\akars\OneDrive\Desktop\LAP_Übungen\Skiverleih.Web\Skiverleih.Model\obj\Debug\Skiverleih.Model.pdb
+C:\Users\akars\OneDrive\Desktop\LAP_Übungen\Skiverleih.Web\Skiverleih.Model\obj\Debug\Skiverleih.Model.csprojAssemblyReference.cache
